@@ -5,12 +5,12 @@ class ATMDriver
 	public static void main(String[] args) 
 	{
 			Scanner sc = new Scanner(System.in);
-			System.out.println("WELCOME TO XYZ BANK ATM");
+			System.out.println("WELCOME TO JK BANK ATM");
 			int choice;
 			int count =0;
 			do
 			{
-				System.out.println("1.Withdraw\n2.Deposite\n3.Balance Enquiry\n4.Exit");
+				System.out.println("1.Withdraw\n2.Deposit\n3.Balance Enquiry\n4.Exit");
 				System.out.print("Enter the choice : ");
 				choice =  sc.nextInt();
 				if(count<3)
