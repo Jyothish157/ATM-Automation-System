@@ -1,7 +1,7 @@
 class ATM
 {
-	static double balance = 1200;
-	static int epin = 8746;
+	static double balance = 5000;
+	static int epin = 1983;
 	public static boolean pinChecker(int pin)
 	{
 
